@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('legof.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #333;
+  }
+  .titulo {
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(to right, #ff6600, #ff3399);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 20px;
+  }
+  .navegacion {
+    text-align: center;
+    padding: 10px;
+  }
+  .navegacion a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+  }
+  .navegacion a:hover {
+    color: #ff6600;
+  }
+  .contenedor-productos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    max-width: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .producto img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .producto h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  .producto p {
+    font-size: 1.1em;
+    color: #888;
+  }
+  .producto button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  .producto button:hover {
+    background-color: #45a049;
+  }
+  .boton-contacto {
+    text-align: center;
+    margin: 20px;
+  }
